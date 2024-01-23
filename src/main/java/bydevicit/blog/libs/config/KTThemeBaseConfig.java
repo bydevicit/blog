@@ -1,4 +1,4 @@
-package com.theme.starterkit.libs.config;
+package bydevicit.blog.libs.config;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
-package com.theme.starterkit.libs;
+package bydevicit.blog.libs;
 
-import com.theme.starterkit.libs.config.KTThemeBaseConfig;
+import bydevicit.blog.libs.config.KTThemeBaseConfig;
 
 public class KTBootstrap {
 

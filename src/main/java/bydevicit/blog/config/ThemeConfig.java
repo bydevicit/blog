@@ -1,9 +1,9 @@
-package com.theme.starterkit.config;
+package bydevicit.blog.config;
 
-import com.theme.starterkit.libs.KTTheme;
-import com.theme.starterkit.libs.config.KTThemeBaseConfig;
-import com.theme.starterkit.libs.config.KTIconsBaseSettings;
-import com.theme.starterkit.libs.config.KTThemeSettings;
+import bydevicit.blog.libs.KTTheme;
+import bydevicit.blog.libs.config.KTIconsBaseSettings;
+import bydevicit.blog.libs.config.KTThemeBaseConfig;
+import bydevicit.blog.libs.config.KTThemeSettings;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.annotation.RequestScope;

@@ -1,7 +1,7 @@
-package com.theme.starterkit.libs;
+package bydevicit.blog.libs;
 
-import com.theme.starterkit.libs.config.KTIconsBaseSettings;
-import com.theme.starterkit.libs.config.KTThemeBaseConfig;
+import bydevicit.blog.libs.config.KTIconsBaseSettings;
+import bydevicit.blog.libs.config.KTThemeBaseConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.File;

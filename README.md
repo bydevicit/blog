@@ -3,5 +3,8 @@ Yazılım ve Teknoloji alanlarında bilgilendirici postlar yazmak ve paylaşmak 
 
 ## Version 1.0.0
 
+### DB Schema Design
+![DB Schema](https://github.com/bydevicit/blog/blob/main/src/main/resources/doc/db-scheme-design.png?raw=true)
+
 ### DB Schema
 ![DB Schema](https://github.com/bydevicit/blog/blob/main/src/main/resources/doc/db-scheme.png?raw=true)
