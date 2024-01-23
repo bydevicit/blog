@@ -12,7 +12,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class SystemController implements ErrorController {
+public class SystemController implements  ErrorController {
     @Autowired
     private KTTheme theme;
 
