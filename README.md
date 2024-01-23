@@ -4,4 +4,4 @@ Yazılım ve Teknoloji alanlarında bilgilendirici postlar yazmak ve paylaşmak 
 ## Version 1.0.0
 
 ### DB Schema
-![DB Schema](C:\Users\9500172\Desktop\spring\metronic_spring_v8.2.0_demo1\spring_demo1\starterkit\src\main\resources\doc\db-scheme.png)
+![DB Schema](https://github.com/bydevicit/blog/blob/main/src/main/resources/doc/db-scheme.png?raw=true)
