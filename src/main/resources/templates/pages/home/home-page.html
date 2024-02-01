@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout/master}">
+<head>
+    <meta charset=" UTF-8">
+    <title>Ana Sayfa</title>
+    <style>
+        body {
+            background-image: url("/assets/media/auth/bg7.jpg");
+        }
+
+        [data-bs-theme="dark"] body {
+            background-image: url("/assets/media/auth/bg7-dark.jpg");
+        }
+    </style>
+</head>
+<body>
+<div layout:fragment="body" class="d-flex flex-column flex-root" id="kt_app_root">
+
+    <div>sdadssddsas</div>
+
+
+
+
+    dsaasdsd
+
+    <!--begin::Wrapper-->
+    <div class="d-flex flex-column flex-center flex-column-fluid">
+        <!--begin::Content-->
+        <div class="d-flex flex-column flex-center text-center p-10">
+            <!--begin::Card-->
+            <div class="card card-flush w-lg-850px py-5">
+                <!--begin::Card body-->
+                <div class="card-body py-15 py-lg-20">
+                    <div layout:fragment="content">
+                        <div id="kt_carousel_1_carousel" class="carousel carousel-custom slide" data-bs-ride="carousel"
+                             data-bs-interval="4000">
+                            <!--begin::Heading-->
+                            <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                <!--begin::Label-->
+                                <span class="fs-4 fw-bold pe-2">Postlar</span>
+                                <!--end::Label-->
+
+                                <!--begin::Carousel Indicators-->
+                                <ol class="p-0 m-0 carousel-indicators carousel-indicators-dots">
+                                    <li data-bs-target="#kt_carousel_1_carousel" data-bs-slide-to="0"
+                                        class="ms-1 active"></li>
+                                    <li data-bs-target="#kt_carousel_1_carousel" data-bs-slide-to="1" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_1_carousel" data-bs-slide-to="2" class="ms-1"></li>
+                                </ol>
+                                <!--end::Carousel Indicators-->
+                            </div>
+                            <!--end::Heading-->
+
+                            <!--begin::Carousel-->
+                            <div class="carousel-inner pt-8">
+                                <!--begin::Item-->
+                                <div class="carousel-item active">
+                                    Post 1
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="carousel-item">
+                                    Post 2
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="carousel-item">
+                                    Post 3
+                                </div>
+                                <!--end::Item-->
+                            </div>
+                            <!--end::Carousel-->
+                        </div>
+                    </div>
+                </div>
+                <!--end::Card body-->
+            </div>
+            <!--end::Card-->
+        </div>
+        <!--end::Content-->
+    </div>
+    <!--end::Wrapper-->
+</div>
+</body>
+</html>

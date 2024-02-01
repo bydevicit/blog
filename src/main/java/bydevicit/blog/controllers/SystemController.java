@@ -16,11 +16,7 @@ public class SystemController implements  ErrorController {
     @Autowired
     private KTTheme theme;
 
-    @ModelAttribute
-    public void init() {
-        theme.setLayout("system");
-        theme.initLayout();
-    }
+
 
     @GetMapping("/not-found")
     public String notFound(){
