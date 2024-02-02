@@ -2,11 +2,27 @@
 <div class="app-header-menu app-header-mobile-drawer align-items-stretch" data-kt-drawer="true" data-kt-drawer-name="app-header-menu" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_header_menu_toggle" data-kt-swapper="true" data-kt-swapper-mode="{default: 'append', lg: 'prepend'}" data-kt-swapper-parent="{default: '#kt_app_body', lg: '#kt_app_header_wrapper'}">
     <!--begin::Menu-->
     <div class="menu menu-rounded menu-column menu-lg-row my-5 my-lg-0 align-items-stretch fw-semibold px-2 px-lg-0" id="kt_app_header_menu" data-kt-menu="true">
+
+        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
+            <!--begin::User menu-->
+            <div class="app-navbar-item ms-1 ms-md-4" id="kt_header_user_menu_toggle">
+                <!--begin::Menu wrapper-->
+                <div class="cursor-pointer symbol symbol-90px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent">
+                    <img th:src="${@theme.getAssetPath('media/logos/default-dark.svg')}" alt="user" />
+                </div>
+                <div th:replace="partials/menus/_user-account-menu.html"></div>
+                <!--end::Menu wrapper-->
+            </div>
+            <!--end::User menu-->
+        </div>
+
+
+
         <!--begin:Menu item-->
         <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item here show menu-here-bg menu-lg-down-accordion me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-				<span class="menu-title">Dashboardshhh</span>
+				<span class="menu-title">Ana Sayfa</span>
 				<span class="menu-arrow d-lg-none"></span>
 			</span>
             <!--end:Menu link-->
@@ -16,27 +32,11 @@
             </div>
             <!--end:Menu sub-->
         </div>
-        <!--end:Menu item-->
-        <!--begin:Menu item-->
-        <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion me-0 me-lg-2">
-            <!--begin:Menu link-->
-            <span class="menu-link">
-				<span class="menu-title">Pagess</span>
-				<span class="menu-arrow d-lg-none"></span>
-			</span>
-            <!--end:Menu link-->
-            <!--begin:Menu sub-->
-            <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown p-0">
-                <div th:replace="${@theme.getView('partials/sidebar-layout/header/_menu/__pages.html')}"></div>
-            </div>
-            <!--end:Menu sub-->
-        </div>
-        <!--end:Menu item-->
-        <!--begin:Menu item-->
+
         <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-				<span class="menu-title">Appsa</span>
+				<span class="menu-title">Kategoriler</span>
 				<span class="menu-arrow d-lg-none"></span>
 			</span>
             <!--end:Menu link-->
@@ -1149,7 +1149,7 @@
         <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-				<span class="menu-title">Layoutsyyy</span>
+				<span class="menu-title">Hakkımızda</span>
 				<span class="menu-arrow d-lg-none"></span>
 			</span>
             <!--end:Menu link-->
@@ -1164,7 +1164,7 @@
         <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="bottom-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention me-0 me-lg-2">
             <!--begin:Menu link-->
             <span class="menu-link">
-				<span class="menu-title">Helppp</span>
+				<span class="menu-title">Bize Ulaşın</span>
 				<span class="menu-arrow d-lg-none"></span>
 			</span>
             <!--end:Menu link-->
